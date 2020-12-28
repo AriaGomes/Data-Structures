@@ -1,0 +1,43 @@
+import java.util.Comparator;
+
+public class Student
+{
+	private String firstName;
+	private String studentNum;
+	private float balance;
+	
+	public Student() // Default constructor (creates a empty student)
+	{
+		firstName = " ";
+		studentNum = " ";
+		balance = 0.0f;
+	}
+	
+	public int compareTo(Student s) 
+    { 
+        return Integer.valueOf(this.studentNum) - Integer.valueOf(s.studentNum); 
+    }
+	
+	public Student(String fName, String sNum, float bal) // (Initial Constructor) Creates a new student with new values
+	{
+		firstName = fName;
+		studentNum = sNum;
+		balance = bal;
+	}
+	
+	public String getFirstName()
+	{
+		return firstName;
+	}
+	
+	public String getStudentNum()
+	{
+		return studentNum;
+	}
+	
+	public float getBalance()
+	{
+		return balance;
+	}
+
+}

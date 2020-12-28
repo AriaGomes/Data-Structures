@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/home/figro/Documents/CST8130Exam/.metadata/.plugins/org.eclipse.jdt.core
+291828315.index
+2482079582.index

@@ -1,0 +1,22 @@
+public class Student 
+{
+	private String firstName;
+	private String phoneNum;
+	private float balance;
+	
+	public Student() // Default constructor (creates a empty student)
+	{
+		firstName = " ";
+		phoneNum = " ";
+		balance = 0.0f;
+	}
+	
+	public Student(String fName, String phone, float bal) // (Initial Constructor) Creates a new student with new values
+	{
+		firstName = fName;
+		phoneNum = phone;
+		balance = bal;
+	}
+}
+
+
